@@ -64,8 +64,6 @@ const CustomStepIcon = (props: StepIconProps) => {
 }
 
 const VerticalStepper = (props: IVerticalStepperProps) => {
-  console.log(props.activeStep)
-
   return (
     <Stepper orientation='vertical' activeStep={props.activeStep}>
       {props.steps.map((step, key) => (
